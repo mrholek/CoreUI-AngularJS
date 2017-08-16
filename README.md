@@ -4,9 +4,9 @@
 
 [Check out Bootstrap Admin Templates Bundle](https://genesisui.com/bundle.html?support=1&utm_source=github&utm_medium=referer&utm_campaign=angularjs_version)
 
-# CoreUI AngularJS Version - Free Angular Admin Template
+# CoreUI AngularJS Version - Free AngularJS Admin Template
 
-This is Angular 2+ version of our Bootstrap 4 admin template [CoreUI](https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template).
+This is AngularJS version of our Bootstrap 4 admin template [CoreUI](https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template).
 
 Please help us on [Product Hunt](https://www.producthunt.com/posts/coreui-open-source-bootstrap-4-admin-template-with-angular-2-react-js-vue-js-support) & [Designer News](https://www.designernews.co/stories/81127). Thanks in advance!
 
