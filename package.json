@@ -1,0 +1,34 @@
+{
+  "name": "coreui-angularjs",
+  "version": "1.0.0-alpha.6",
+  "description": "Open Source AngularJS Admin Template",
+  "main": "",
+  "homepage": "http://coreui.io",
+  "github": "https://github.com/mrholek/CoreUI-AngularJS#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrholek/CoreUI-AngularJS.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "Admin",
+    "Template",
+    "Open Source",
+    "Angular",
+    "Angular 2",
+    "Angular 4",
+    "jQuery",
+    "CSS",
+    "HTML",
+    "RWD",
+    "Dashboard"
+  ],
+  "author": "Łukasz Holeczek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrholek/CoreUI-AngularJS/issues"
+  }
+}
