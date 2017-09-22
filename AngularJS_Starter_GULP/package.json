@@ -1,24 +1,44 @@
 {
-  "name": "CoreUI",
-  "version": "1.0.0-alpha.5",
+  "name": "coreui-angularjs",
+  "version": "1.0.0",
   "description": "",
   "main": "index.html",
   "dependencies": {
-    "del": "^2.2.2",
-    "gulp": "^3.9.1"
+    "@uirouter/angularjs": "^1.0.6",
+    "angular": "^1.6.6",
+    "angular-animate": "^1.6.6",
+    "angular-breadcrumb": "^0.5.0",
+    "angular-chart.js": "^1.1.1",
+    "angular-loading-bar": "^0.9.0",
+    "angular-sanitize": "^1.6.6",
+    "angular-translate": "^2.15.2",
+    "bootstrap": "^4.0.0-beta",
+    "chart.js": "^2.7.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "oclazyload": "^1.1.0",
+    "popper.js": "^1.12.5",
+    "simple-line-icons": "^2.4.1",
+    "toastr": "^2.1.2"
   },
   "devDependencies": {
     "browser-sync": "^2.16.0",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-bower-src": "^0.1.0",
     "gulp-concat": "^2.6.0",
-    "gulp-filter": "^4.0.0",
+    "gulp-contains": "^1.1.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-filter": "^5.0.1",
     "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.5.4",
-    "gulp-sass": "^2.3.2",
-    "gulp-uglify": "^2.0.0",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-search": "^1.0.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-web-dependencies": "^1.1.2",
     "main-bower-files": "^2.13.1",
-    "run-sequence": "^1.2.2"
+    "require-dir": "^0.3.2",
+    "run-sequence": "^2.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

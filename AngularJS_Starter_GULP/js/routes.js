@@ -30,11 +30,11 @@ angular
         return $ocLazyLoad.load([{
           serie: true,
           name: 'Font Awesome',
-          files: ['css/font-awesome.min.css']
+          files: ['node_modules/font-awesome/css/font-awesome.min.css']
         },{
           serie: true,
           name: 'Simple Line Icons',
-          files: ['css/simple-line-icons.css']
+          files: ['node_modules/simple-line-icons/css/simple-line-icons.css']
         }]);
       }],
       loadPlugin: ['$ocLazyLoad', function ($ocLazyLoad) {
@@ -43,8 +43,8 @@ angular
           serie: true,
           name: 'chart.js',
           files: [
-            'bower_components/chart.js/dist/Chart.min.js',
-            'bower_components/angular-chart.js/dist/angular-chart.min.js'
+            'node_modules/chart.js/dist/Chart.min.js',
+            'node_modules/angular-chart.js/dist/angular-chart.min.js'
           ]
         }]);
       }],
@@ -67,8 +67,8 @@ angular
             serie: true,
             name: 'chart.js',
             files: [
-              'bower_components/chart.js/dist/Chart.min.js',
-              'bower_components/angular-chart.js/dist/angular-chart.min.js'
+              'node_modules/chart.js/dist/Chart.min.js',
+              'node_modules/angular-chart.js/dist/angular-chart.min.js'
             ]
           },
         ]);
@@ -85,16 +85,16 @@ angular
     abstract: true,
     templateUrl: 'views/common/layouts/simple.html',
     resolve: {
-      loadPlugin: ['$ocLazyLoad', function ($ocLazyLoad) {
-        // you can lazy load files for an existing module
+      loadCSS: ['$ocLazyLoad', function($ocLazyLoad) {
+        // you can lazy load CSS files
         return $ocLazyLoad.load([{
           serie: true,
           name: 'Font Awesome',
-          files: ['css/font-awesome.min.css']
+          files: ['node_modules/font-awesome/css/font-awesome.min.css']
         },{
           serie: true,
           name: 'Simple Line Icons',
-          files: ['css/simple-line-icons.css']
+          files: ['node_modules/simple-line-icons/css/simple-line-icons.css']
         }]);
       }],
     }

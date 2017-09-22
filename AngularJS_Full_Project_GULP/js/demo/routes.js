@@ -74,39 +74,6 @@ angular
       label: 'Tables'
     }
   })
-  .state('app.forms', {
-    url: '/forms',
-    templateUrl: 'views/forms.html',
-    ncyBreadcrumb: {
-      label: 'Forms'
-    },
-    resolve: {
-      loadPlugin: ['$ocLazyLoad', function ($ocLazyLoad) {
-        return $ocLazyLoad.load([
-          {
-            serie: true,
-            files: ['js/libs/moment.min.js']
-          },
-          {
-            serie: true,
-            files: ['js/libs/daterangepicker.min.js', 'js/libs/angular-daterangepicker.min.js']
-          },
-          {
-            files: ['js/libs/mask.min.js']
-          },
-          {
-            files: ['js/libs/select.min.js']
-          }
-        ]);
-      }],
-      loadMyCtrl: ['$ocLazyLoad', function($ocLazyLoad) {
-        // you can lazy load files for an existing module
-        return $ocLazyLoad.load({
-          files: ['js/controllers/forms.js']
-        });
-      }]
-    }
-  })
   .state('app.widgets', {
     url: '/widgets',
     templateUrl: 'views/widgets.html',

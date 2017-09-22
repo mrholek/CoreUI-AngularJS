@@ -1,5 +1,6 @@
 angular
 .module('app')
+.directive('includeReplace', includeReplace)
 .directive('a', preventClickDirective)
 .directive('a', bootstrapCollapseDirective)
 .directive('a', navigationDirective)
@@ -10,6 +11,19 @@ angular
 .directive('toggle', bootstrapTooltipsPopoversDirective)
 .directive('tab', bootstrapTabsDirective)
 .directive('button', cardCollapseDirective)
+
+function includeReplace() {
+  var directive = {
+    require: 'ngInclude',
+    restrict: 'A',
+    link: link
+  }
+  return directive;
+
+  function link(scope, element, attrs) {
+    element.replaceWith(element.children());
+  }
+}
 
 //Prevent click if href="#"
 function preventClickDirective() {
