@@ -1,7 +1,7 @@
 {
   "name": "@coreui/angularjs",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.4",
+  "description": "Open Source Bootstrap Admin Template",
   "main": "index.html",
   "dependencies": {
     "@uirouter/angularjs": "^1.0.6",
@@ -12,7 +12,7 @@
     "angular-loading-bar": "^0.9.0",
     "angular-sanitize": "^1.6.6",
     "angular-translate": "^2.15.2",
-    "bootstrap": "^4.0.0-beta.2",
+    "bootstrap": "4.0.0-beta.2",
     "chart.js": "^2.7.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
@@ -39,9 +39,7 @@
     "require-dir": "^0.3.2",
     "run-sequence": "^2.1.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "browserslist": [
     "Chrome >= 45",
     "Firefox ESR",
@@ -53,7 +51,7 @@
     "Opera >= 30"
   ],
   "author": "Łukasz Holeczek",
-  "url": "http://coreui.io",
-  "copyright": "Copyright 2016 creativeLabs Łukasz Holeczek",
-  "license": "http://coreui.io/license"
+  "homepage": "http://coreui.io",
+  "copyright": "Copyright 2017 creativeLabs Łukasz Holeczek",
+  "license": "MIT"
 }
