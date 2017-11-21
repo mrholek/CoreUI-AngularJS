@@ -1,6 +1,6 @@
 {
   "name": "@coreui/angularjs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Open Source Bootstrap Admin Template",
   "main": "index.html",
   "dependencies": {
@@ -39,7 +39,12 @@
     "require-dir": "^0.3.2",
     "run-sequence": "^2.1.0"
   },
-  "scripts": {},
+  "scripts": {
+    "gulp": "gulp",
+    "build": "gulp build:dist",
+    "serve": "gulp serve",
+    "serve-dist": "gulp serve:dist"
+  },
   "browserslist": [
     "Chrome >= 45",
     "Firefox ESR",
