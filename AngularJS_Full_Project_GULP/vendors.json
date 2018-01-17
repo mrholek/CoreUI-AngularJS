@@ -1,8 +1,12 @@
 {
   "css": [
+    "node_modules/flag-icon-css/css/flag-icon.min.css",
     "node_modules/font-awesome/css/font-awesome.min.css",
     "node_modules/font-awesome/css/font-awesome.css.map",
     "node_modules/simple-line-icons/css/simple-line-icons.css"
+  ],
+  "flags": [
+    "node_modules/flag-icon-css/flags/**"
   ],
   "fonts": [
     "node_modules/font-awesome/fonts/**",
