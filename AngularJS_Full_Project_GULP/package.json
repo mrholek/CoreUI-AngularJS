@@ -1,10 +1,10 @@
 {
   "name": "@coreui/angularjs",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Open Source Bootstrap Admin Template",
   "main": "index.html",
   "dependencies": {
-    "@uirouter/angularjs": "1.0.13",
+    "@uirouter/angularjs": "1.0.14",
     "angular": "1.6.8",
     "angular-animate": "1.6.8",
     "angular-breadcrumb": "^0.5.0",
@@ -23,7 +23,7 @@
     "toastr": "^2.1.4"
   },
   "devDependencies": {
-    "browser-sync": "2.23.5",
+    "browser-sync": "2.23.6",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "4.1.0",
@@ -58,6 +58,6 @@
   ],
   "author": "Łukasz Holeczek",
   "homepage": "http://coreui.io",
-  "copyright": "Copyright 2017 creativeLabs Łukasz Holeczek",
+  "copyright": "Copyright 2018 creativeLabs Łukasz Holeczek",
   "license": "MIT"
 }
